@@ -3,10 +3,8 @@
 
 // 1. printIndices
 function printIndices(items) {
-  // Replace this with your code
-
   for (const idx in items){
-    console.log(items[idx], idx);
+    console.log(`${items[idx]} ${idx}`);
   }
 }
 
@@ -14,6 +12,14 @@ function printIndices(items) {
 // 2. everyOtherItem
 function everyOtherItem(items) {
   // Replace this with your code
+  const result = [];
+
+  for (const idx in items){
+    if (idx % 2 === 0) {
+      result.push(items[idx]);
+    }
+  }
+  console.log(result);
 }
 
 
