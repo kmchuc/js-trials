@@ -9,7 +9,9 @@ function isHometown(town){
 
 // 2. getFullName
 
-// Define your function here
+function getFullName(firstName, lastName) {
+  return console.log(`${firstName} ${lastName}`);
+}
 
 
 // 3. calculateTotal
