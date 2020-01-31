@@ -32,7 +32,7 @@ function getMelonsAtPrice(price) {
     14.25: ['Christmas']
   };
 
-  if (!price in melon_prices) {
+  if (!(price in melon_prices)) {
     return 
   }
 
