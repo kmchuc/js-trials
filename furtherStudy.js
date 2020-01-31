@@ -21,4 +21,21 @@ function wordsInCommon(words1, words2) {
 
 function kidsGame(names) {
   // Replace this with your code
+
+  const output = Array.from(names.pop(0));
+
+  let first_letter_to_words = {};
+
+  for (const name of names) {
+    if (! (first_letter_to_words.has(name))) {
+      first_letter_to_words.name[0] = Array.from([name]);
+    } else {
+      first_letter_to_words.name[0].push(name);
+    }
+  }
+
+  while true {
+    const start_letter = output[output.length()-1]
+  }
+
 }
